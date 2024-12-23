@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gemini
 
-## Getting Started
+A clone of the Gemini platform built using Next.js and TypeScript. The project utilizes the free Gemini API to simulate the platform's core functionalities. The primary goal was to gain hands-on experience with TypeScript and Next.js in a real-world project.
 
-First, run the development server:
+[Live Demo](https://gemini-phi-black.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## Overview
+Gemini Clone replicates the basic functionalities of the Gemini platform, providing insights into:
+- API integration and data fetching.
+- Building scalable frontends with Next.js and TypeScript.
+- Responsive and modern UI design.
+
+---
+
+## Features
+- **Real-time Data Fetching:** Uses the Gemini free API for real-time data.
+- **TypeScript Integration:** Enhances development with static typing.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Next.js Features:** Server-side rendering and API routes for enhanced performance.
+
+---
+
+## Screenshots
+### Home Page:
+![Screenshot 1](./public/Screenshots/ss1.png)
+
+---
+
+## Technologies Used
+
+### Frontend
+- **Next.js:** Framework for server-rendered React applications.
+- **TypeScript:** Static typing for robust code development.
+- **Tailwind CSS:** For modern and responsive styling.
+
+### Backend
+- **Gemini API:** Used for fetching real-time data.
+
+### Hosting
+- Hosted on Vercel: [Live Demo](https://gemini-phi-black.vercel.app/)
+
+---
+
+## Dependencies
+```json
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "dotenv": "^16.4.5",
+    "next": "14.2.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.6",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Prerequisites
+- Node.js and npm installed.
 
-## Learn More
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/gemini-clone.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory:
+   ```bash
+   cd gemini-clone
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. Configure environment variables:
+   Create a `.env` file and add your API keys and other configurations.
 
-## Deploy on Vercel
+5. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## How It Works
+1. **API Integration:** Fetches data from the Gemini API for real-time updates.
+2. **Static and Dynamic Pages:** Utilizes Next.js features for rendering.
+3. **TypeScript Benefits:** Implements type safety and improves code maintainability.
+
+---
+
+## Future Improvements
+- Add user authentication for personalized experiences.
+- Expand functionalities to include more Gemini features.
+- Optimize API calls for better performance.
+
+---
+
+## Contribution
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## Contact
+For queries or feedback, please contact [Shubham](mailto:shubhamjaishu@gmail.com).
