@@ -76,12 +76,12 @@ Gemini Clone replicates the basic functionalities of the Gemini platform, provid
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/gemini-clone.git
+   git clone https://github.com/shubham-jaishu/Gemini.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd gemini-clone
+   cd Gemini
    ```
 
 3. Install dependencies:
